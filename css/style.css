@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+
+/*Setting variables*/
+:root {
+    --navy: rgb(4, 4, 94);
+    --sky: rgba(59, 197, 244, 1);
+    --pic-border: solid 4px var(--sky);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 5px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 0px;
+    background-color: var(--navy);
+}
+
+.navbar-brand {
+    width: 30%;
+    color: var(--navy);
+    background-color: var(--sky);
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+    padding-right: 10px;
+    margin-top: 10px;
+    font-size: 250%;
+    text-align: right;
+}
+
+.navMenu {
+    text-decoration-line: none;
+    color: var(--sky);
+    padding: 5px 5px;
+    border: 5px;
+    border-bottom-style: solid;
+    border-color: var(--sky);
+    margin: 5px;
+    font-size: 140%;
+}
+
+.banner {
+    background-image: url("../images/cod-symb.png");
+    background-repeat: repeat-x repeat-y;
+    background-position: top;
+    background-blend-mode: soft-light;
+    min-height: 10vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: right;
+}
+
+#banner-txt {
+    color: var(--navy);
+    background-color: var(--sky);
+    padding: 10px;
+    border: solid 2px;
+    margin: 0 50px 20px 10px;
+}
