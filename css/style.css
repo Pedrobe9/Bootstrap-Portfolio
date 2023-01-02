@@ -46,7 +46,8 @@ p {
     padding-left: 15px;
     padding-right: 10px;
     margin-top: 10px;
-    font-size: 250%;
+    font-size: 270%;
+    font-weight: 600;
     text-align: right;
 }
 
@@ -65,18 +66,42 @@ p {
     background-image: url("../images/cod-symb.png");
     background-repeat: repeat-x repeat-y;
     background-position: top;
-    background-blend-mode: soft-light;
-    min-height: 10vh;
+    background-blend-mode: normal;
+    height: 30vh;
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    text-align: right;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
 }
 
-#banner-txt {
+.banner-txt {
     color: var(--navy);
+    font-weight: 400;
     background-color: var(--sky);
     padding: 10px;
-    border: solid 2px;
-    margin: 0 50px 20px 10px;
+    margin: 0 50px 0 10px;
+}
+
+.avatar {
+    height: auto;
+    max-width: 30%;
+}
+
+#work,
+#aboutme,
+#contactme {
+  text-align: right;
+  padding: 10px;
+  border-right: solid 5px;
+  margin: 10px;
+  font-size: 200%;
+}
+#about-txt {
+    margin: 10px auto;
+    vertical-align: middle;
+}
+
+footer p {
+  text-align: right;
+  padding-right: 20px;
 }

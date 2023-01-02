@@ -1,126 +1,130 @@
 <!doctype html> <!-- requires the use of the HTML5 doctype-->
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" 
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
     integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-    <title>Bootstrap Portfolio</title>
-    <link rel="stylesheet" href="css/style.css"/>
-  </head>
-    
-  <body>
-    <header>
-      <section class="header">
-        <h1 class="navbar-brand">Pedro Bernal</h1>
-        <nav id="navBar">
-          <a class="navMenu" href="#aboutme">About Me</a>
-           <a class="navMenu" href="#work">Work</a>
-           <a class="navMenu" href="#contactme">Contack Me</a>
-          <a class="navMenu" href="#resume">Resume</a>
-        </nav>
-      </section>
-      <!-- Jumbotron -->
-      <section class="banner jumbotron jumbotron-fluid">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-5">
-              <img src="images/avatar.png" alt="Avatar of developer">
-            </div>
-            <div class="col-lg-7">
-              <h1 class="display-4">Hello, world!</h1>
-              <h3>Best things I have done so far</h3>
-              <p class="lead">These are examples of the work I have done so far.</p>
-            </div>
+  <title>Bootstrap Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <header>
+    <section class="header">
+      <h1 class="navbar-brand">Pedro Bernal</h1>
+      <nav id="navBar">
+        <a class="navMenu" href="#aboutme">About Me</a>
+        <a class="navMenu" href="#work">Work</a>
+        <a class="navMenu" href="#contactme">Contack Me</a>
+        <a class="navMenu" href="#resume">Resume</a>
+      </nav>
+    </section>
+    <!-- Jumbotron -->
+    <section class="banner jumbotron jumbotron-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5">
+            <img class="avatar" src="images/avatar.png" alt="Avatar of developer">
+          </div>
+          <div class="col-lg-7">
+            <h2 class="banner-txt display-4">Hello, world!</h2>
+            <h3 class="banner-txt ">Best things I have done so far</h3>
           </div>
         </div>
-      </section>
-    </header>  
-    <!--Main section showing work-->
-    <main class="container-fluid page-section">
-      <!-- about me -->
-      <section class="row ">
-        <div class="col-md-3">
-          <h2 id="aboutme">About<br/>Me</h2>
-        </div>
-        <div class="col-md-7">
-          <p id="about-txt" class="categoryGridArea">BSc (Hons) Chemistry and PGDip Nursing graduate with good
-                organisational skills developed working with both, public and private companies, who decided to give 
-                a radical change to his working life and to start coding. This is a representation of the projects I 
-                have made. so far...</p>
-        </div>
-        <div class="col-md-2">
-        </div>
-      </section>  
-
-      <!-- portfolio container -->
-      <section class="row ">
-        <div class="col-md-3">
-          <h2 id="work">Work</h2>
-        </div>
-        <div class="col-md-7">
-          <div id="cheatsheet" class="categoryGridArea" class="image">
-            <h3 class="heading">Cheatsheet<br/><small>HTML/CSS</small></h3>
-          </div>
-
-          <div id="furn-shop" class="categoryGridArea" class="image">
-            <h3 class="heading">Furniture shop<br/><small>HTML/CSS</small></h3>
-          </div>
-
-          <div id="led-wall" class="categoryGridArea" class="image">
-            <h3 class="heading">Led Wall</h3>
-          </div>
-
-          <div id="calculator" class="categoryGridArea">
-            <h3 class="heading">Calculator</h3>
-          </div>
-
-          <div id="run-buddy" class="categoryGridArea">
-            <h3 class="heading">Run Buddy</h3>
-          </div>     
-        </div>
-        <div class="col-md-2">
-        </div>
-      </section>
-
-      <!--Contact me section-->
-      <section class="row">
-        <div class="col-md-3">
-          <h2 id="contactme">Contact<br />Me</h2>
-        </div>
-        <div class="col-md-7">
-          <nav id="contact-txt" class="categoryGridArea">
-            <a class="contact-foot" href="">07x xxxx xxxx</a>
-            <a class="contact-foot" href="">email</a>
-            <a class="contact-foot" href="">GitHub</a>
-            <a class="contact-foot" href="">Facebook</a>
-            <a class="contact-foot" href="">Twitter</a>
-          </nav>
-        </div>
-        <div class="col-md-2">
-        </div>
-      </section>
-
-      <!-- Resume -->
-
-
-    </main>
-    <footer>
-      <div>
-        <p>© Pedro Bernal, 2023</p>
       </div>
-    </footer>
+    </section>
+  </header>
+  <!--Main section showing work-->
+  <main class="container-fluid page-section">
+    <!-- about me -->
+    <section class="row ">
+      <div class="col-md-3">
+        <h2 id="aboutme">About<br />Me</h2>
+      </div>
+      <div class="col-md-7">
+        <p id="about-txt">BSc (Hons) Chemistry and PGDip Nursing graduate with good
+          organisational skills developed working with both, public and private companies, who decided to give
+          a radical change to his working life and to start coding. This is a representation of the projects I
+          have made. so far...</p>
+      </div>
+      <div class="col-md-2">
+      </div>
+    </section>
 
-        <!-- Optional JavaScript: It requires jQuery, Popper.js, and our own JavaScript plugins. 
+    <!-- portfolio container -->
+    <section class="row ">
+      <div class="col-md-3">
+        <h2 id="work">Work</h2>
+      </div>
+      <div class="col-md-7">
+        <div id="cheatsheet" class="categoryGridArea" class="image">
+          <h3 class="heading">Cheatsheet<br /><small>HTML/CSS</small></h3>
+        </div>
+
+        <div id="furn-shop" class="categoryGridArea" class="image">
+          <h3 class="heading">Furniture shop<br /><small>HTML/CSS</small></h3>
+        </div>
+
+        <div id="led-wall" class="categoryGridArea" class="image">
+          <h3 class="heading">Led Wall</h3>
+        </div>
+
+        <div id="calculator" class="categoryGridArea">
+          <h3 class="heading">Calculator</h3>
+        </div>
+
+        <div id="run-buddy" class="categoryGridArea">
+          <h3 class="heading">Run Buddy</h3>
+        </div>
+      </div>
+      <div class="col-md-2">
+      </div>
+    </section>
+
+    <!--Contact me section-->
+    <section class="row">
+      <div class="col-md-3">
+        <h2 id="contactme">Contact<br />Me</h2>
+      </div>
+      <div class="col-md-7">
+        <nav id="contact-txt" class="categoryGridArea">
+          <a class="contact-foot" href="">07x xxxx xxxx</a>
+          <a class="contact-foot" href="">email</a>
+          <a class="contact-foot" href="">GitHub</a>
+          <a class="contact-foot" href="">Facebook</a>
+          <a class="contact-foot" href="">Twitter</a>
+        </nav>
+      </div>
+      <div class="col-md-2">
+      </div>
+    </section>
+
+    <!-- Resume -->
+
+
+  </main>
+  <footer>
+    <div>
+      <p>© Pedro Bernal, 2023</p>
+    </div>
+  </footer>
+
+  <!-- Optional JavaScript: It requires jQuery, Popper.js, and our own JavaScript plugins. 
             Place the <script>s at end of pages, right before the closing </body> tag, to enable them-->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS (We use jQuery’s slim build, but full version also supported) -->
-        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" 
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" 
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" 
-        integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
-    </body>
+  <!-- jQuery first, then Popper.js, then Bootstrap JS (We use jQuery’s slim build, but full version also supported) -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+    integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
