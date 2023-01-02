@@ -96,9 +96,111 @@ p {
   margin: 10px;
   font-size: 200%;
 }
+#work {
+    height: 98%;
+}
+.work-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.flex-item {
+    min-height: 150px;
+    max-height: 150px;
+    flex-basis: calc(50% - 4px);
+    display: flex;
+    align-items: flex-end;
+    padding: 0;
+    margin-top: 8px;
+    text-decoration: none;
+    background-blend-mode: soft-light;
+    background-size: 150%;
+    transition: all 0.5s;
+    font-size: 0.9rem;
+    width: 50%;
+}
+/*First item in portfolio bigger size*/
+.flex-item:first-child {
+    min-height: 300px;
+    flex-basis: 100%;
+}
+
+#cheatsheet {
+    background-image: url("../images/css-cheatsheet.png");
+    border: var(--pic-border);
+    background-size: cover;
+  }
+  
+  #furn-shop {
+    background-image: url("../images/furn-shop.png");
+    border: var(--pic-border);
+    background-size: cover;
+  }
+  
+  #led-wall {
+    background-image: url("../images/02-portfolio-1.jpg");
+    border: var(--pic-border);
+    background-size: cover;
+  }
+  
+  #calculator {
+    background-image: url("../images/02-portfolio-2.jpg");
+    border: var(--pic-border);
+    background-size: cover;
+  }
+  
+  #run-buddy {
+    background-image: url("../images/02-run-buddy.jpg");
+    border: var(--pic-border);
+    background-size: cover;
+  }
+  
+  .image {
+    opacity: 1;
+    display: flex;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+
+  .heading {
+    bottom: 10px;
+    background-color: var(--sky);
+    line-height: 1;
+    padding: 10px;
+    margin-bottom: 10px;
+    height: auto;
+    width: auto;
+    color: var(--navy);
+  }
+  .heading small {
+    font-size: 50%;
+  }
+
 #about-txt {
     margin: 10px auto;
     vertical-align: middle;
+}
+
+#contact-txt {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+  }
+
+.contact-foot {
+    text-decoration-line: none;
+    color: var(--navy);
+    padding: 5px 5px;
+    border: 5px;
+    border-bottom-style: solid;
+    border-color: var(--navy);
+    margin: 5px;
+    font-size: 150%;
 }
 
 footer p {
