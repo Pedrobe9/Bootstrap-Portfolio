@@ -14,14 +14,18 @@
 
 <body>
   <header>
-    <section class="header">
+    <section class="header container">
       <h1 class="navbar-brand">Pedro Bernal</h1>
-      <nav id="navBar">
-        <a class="navMenu" href="#aboutme">About Me</a>
-        <a class="navMenu" href="#work">Work</a>
-        <a class="navMenu" href="#contactme">Contack Me</a>
-        <a class="navMenu" href="#skills">Skills</a>
-      </nav>
+      <div class="row">
+        <div class="col-md-">
+          <nav id="navBar" class="nav justify-content-end">
+            <a href="#aboutme" class="nav-item nav-link active">About Me</a>
+            <a href="#work" class="nav-item nav-link">Work</a>
+            <a href="#contactme" class="nav-item nav-link">Contack Me</a>
+            <a href="#skills" class="nav-item nav-link" tabindex="-1">Skills</a>
+          </nav>
+        </div>
+      </div>
     </section>
     <!-- Jumbotron -->
     <section class="banner jumbotron jumbotron-fluid">

@@ -4,7 +4,7 @@
 
 /*Setting variables*/
 :root {
-  --navy: rgb(4, 4, 94);
+  --navy: rgb(4, 4, 112);
   --sky: rgba(59, 197, 244, 1);
   --pic-border: solid 4px var(--sky);
 }
@@ -37,6 +37,10 @@ p {
   background-color: var(--navy);
 }
 
+.container {
+  max-width: 100%;
+}
+
 .navbar-brand {
   width: 30%;
   color: var(--navy);
@@ -51,7 +55,7 @@ p {
   text-align: right;
 }
 
-.navMenu {
+.nav-item {
   text-decoration-line: none;
   color: var(--sky);
   padding: 5px 5px;
